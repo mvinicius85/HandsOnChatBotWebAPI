@@ -38,6 +38,16 @@ namespace HandsOnChatBotWebAPI.DAO
 
         }
 
+        internal List<Produto> BuscaTodos()
+        {
+            return banco.ToList();
+        }
+
+        internal List<Produto> BuscaAnimal(int animal)
+        {
+            return banco.Where(x => x.Animal.Id == animal).ToList();
+        }
+
         //public void Adiciona(Produto produto)
         //{
         //    contador++;
