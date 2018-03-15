@@ -14,14 +14,14 @@ namespace Loja.DAO
 
         static CarrinhoDAO()
         {
-            Produto videogame = new Produto(6237, "Videogame 4", 4000, 1);
-            Produto esporte = new Produto(3467, "Jogo de esporte", 60, 2);
-            Carrinho carrinho = new Carrinho();
-            carrinho.Adiciona(videogame);
-            carrinho.Adiciona(esporte);
-            carrinho.Endereco = "Rua Vergueiro 3185, 8 andar, Sao Paulo";
-            carrinho.Id = 1;
-            banco.Add(1, carrinho);
+            //Produto videogame = new Produto(6237, "Videogame 4", 4000, 1);
+            //Produto esporte = new Produto(3467, "Jogo de esporte", 60, 2);
+            //Carrinho carrinho = new Carrinho();
+            //carrinho.Adiciona(videogame);
+            //carrinho.Adiciona(esporte);
+            //carrinho.Endereco = "Rua Vergueiro 3185, 8 andar, Sao Paulo";
+            //carrinho.Id = 1;
+            //banco.Add(1, carrinho);
         }
 
         public void Adiciona(Carrinho carrinho)

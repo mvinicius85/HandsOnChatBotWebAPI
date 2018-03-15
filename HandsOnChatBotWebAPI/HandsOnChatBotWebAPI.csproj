@@ -94,7 +94,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Carrinho.cs" />
+    <Compile Include="Models\PorteAnimal.cs" />
     <Compile Include="Models\Produto.cs" />
+    <Compile Include="Models\TipoAnimal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

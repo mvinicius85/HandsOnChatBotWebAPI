@@ -11,10 +11,11 @@ namespace HandsOnChatBotWebAPI.Controllers
 {
     public class ProdutoController : ApiController
     {
-        public Produto Get(int id)
+        [Route("api/Produto/{animal},{porte}")]
+        public List<Produto> Get(int animal, int porte)
         {
             var dao = new ProdutoDAO();
-            var carrinho = dao.Busca(id);
+            var carrinho = dao.BuscaProdutos(animal,porte);
             return carrinho;
         }
     }

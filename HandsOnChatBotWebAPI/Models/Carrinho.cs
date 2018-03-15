@@ -56,9 +56,9 @@ namespace Loja.Models
 		
 		public void TrocaQuantidade(Produto produto)
         {
-            Produto produtoCarregado = Produtos.FirstOrDefault(p => p.Id == produto.Id);
+            //Produto produtoCarregado = Produtos.FirstOrDefault(p => p.Id == produto.Id);
 
-            produtoCarregado.Quantidade = produto.Quantidade;
+            //produtoCarregado.Quantidade = produto.Quantidade;
         }
     }
 }
